@@ -7,6 +7,6 @@ import { defineConfig } from 'astro/config';
 // https://astro.build/config
 export default defineConfig({
 	site: 'https://jack-altide.github.io',
-	base: '/jack-altide-blog',
+	base: '/jack-altide-blog/',
 	integrations: [mdx(), sitemap()],
 });
